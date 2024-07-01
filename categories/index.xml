@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Wimmeltreff e.V.</title>
-    <link>https://wimmeltreff.de/categories/</link>
+    <link>https://falkobenthin.github.io/wimmeltreff/categories/</link>
     <description>Recent content in Categories on Wimmeltreff e.V.</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <atom:link href="https://wimmeltreff.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://falkobenthin.github.io/wimmeltreff/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
