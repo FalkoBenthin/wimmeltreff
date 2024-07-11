@@ -40,7 +40,7 @@
 
 
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"  xml:lang="de-de"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         
             
@@ -69,7 +69,7 @@
         <description>Recent content</description>
 
         
-            <language>en</language>
+            <language>de-de</language>
         
 
         
@@ -152,7 +152,17 @@
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+<table class="aktuelles">
+ <tr class="days">
+  <th>Montag</th>
+  <th>Dienstag</th>
+  <th>Mittwoch</th>
+  <th>Donnerstag</th>
+  <th>Freitag</th>
+  <th>Samstag</th>
+  <th>Sonntag</th>
+ </tr>
+</table>
 ]]></description>
                 
 
