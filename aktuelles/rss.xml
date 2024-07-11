@@ -26,6 +26,12 @@
         
     
 
+    
+
+    
+        
+    
+
 
 
 
@@ -110,49 +116,173 @@
                 
 
                 
-                    <description><![CDATA[<table>
+                    <description><![CDATA[<table class="aktuelles">
 <thead>
-<tr>
-<th>Montag</th>
-<th>Dienstag</th>
-<th>Mittwoch</th>
-<th>Donnerstag</th>
-<th>Freitag</th>
-<th>Samstag</th>
-<th>Sonntag</th>
-</tr>
+ <tr class="days">
+  <th>Montag</th>
+  <th>Dienstag</th>
+  <th>Mittwoch</th>
+  <th>Donnerstag</th>
+  <th>Freitag</th>
+  <th>Samstag</th>
+  <th>Sonntag</th>
+ </tr>
 </thead>
 <tbody>
-<tr>
-<td>29</td>
-<td>30</td>
-<td>31</td>
-<td>01</td>
-<td>02</td>
-<td>03</td>
-<td>04</td>
-</tr>
-<tr>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-<td>:&mdash;</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>15:00-18:00 Uhr  Gemeinsames Gärtnern</td>
-<td></td>
-<td></td>
-<td>09:00-13:00 Uhr  gemeinsames Gärtnern</td>
-<td></td>
-</tr>
+ <tr>
+  <th>26</th>
+  <th>27</th>
+  <th>28</th>
+  <th>29</th>
+  <th>30</th>
+  <th>31</th>
+  <th>01</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>02</th>
+  <th>03</th>
+  <th>04</th>
+  <th>05</th>
+  <th>06</th>
+  <th>07</th>
+  <th>08</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>09</th>
+  <th>10</th>
+  <th>11</th>
+  <th>12</th>
+  <th>13</th>
+  <th>14</th>
+  <th>15</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>16</th>
+  <th>17</th>
+  <th>18</th>
+  <th>19</th>
+  <th>20</th>
+  <th>21</th>
+  <th>22</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>23</th>
+  <th>24</th>
+  <th>25</th>
+  <th>26</th>
+  <th>27</th>
+  <th>28</th>
+  <th>29</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <th>30</th>
+  <th>01</th>
+  <th>02</th>
+  <th>03</th>
+  <th>04</th>
+  <th>05</th>
+  <th>06</th>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>15:00 bis 18:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>09:00 bis 13:00<br>gemeinsames Gärtnern</td>
+  <td>&nbsp;</td>
+ </tr>
 </tbody>
 </table>
-<table class="aktuelles">
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:falkobenthin.github.io,2024-07-01:/wimmeltreff/aktuelles/september/</guid>
+
+                
+                    <link>https://falkobenthin.github.io/wimmeltreff/aktuelles/september/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jul 2024 13:09:40 CEST</pubDate>
+                
+
+                
+                    <title>August</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<table class="aktuelles">
 <thead>
  <tr class="days">
   <th>Montag</th>
