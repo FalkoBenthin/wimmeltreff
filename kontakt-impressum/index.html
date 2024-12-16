@@ -66,7 +66,7 @@ Vertretungsberechtigter Vorstand: Horst Keller (Vorsitzender), Beate Benthin
 Registergericht: Amtsgericht Potsdam
 Registernummer: VR 9755 P
 Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber*innen verantwortlich.
-Datenschutzerklärung Der Schutz Ihrer Privatsphäre und Ihrer persönlichen Daten bei der Nutzung unserer Webseiten ist uns sehr wichtig.">
+Datenschutzerklärung Der Schutz Ihrer Privatsphäre und Ihrer persönlichen Daten bei der Nutzung unserer Webseiten ist uns sehr wichtig. Zu Ihrem Schutz beachten wir genau die Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und weiterer datenschutzrechtlicher Gesetze. Nachfolgend erläutern wir, welche personenbezogenen Daten wir während Ihres Besuches auf unseren Webseiten erfassen und wie wir diese Informationen nutzen.">
   <meta property="og:locale" content="de_de">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2024-07-01T12:46:11+02:00">
@@ -86,7 +86,7 @@ Vertretungsberechtigter Vorstand: Horst Keller (Vorsitzender), Beate Benthin
 Registergericht: Amtsgericht Potsdam
 Registernummer: VR 9755 P
 Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber*innen verantwortlich.
-Datenschutzerklärung Der Schutz Ihrer Privatsphäre und Ihrer persönlichen Daten bei der Nutzung unserer Webseiten ist uns sehr wichtig.">
+Datenschutzerklärung Der Schutz Ihrer Privatsphäre und Ihrer persönlichen Daten bei der Nutzung unserer Webseiten ist uns sehr wichtig. Zu Ihrem Schutz beachten wir genau die Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und weiterer datenschutzrechtlicher Gesetze. Nachfolgend erläutern wir, welche personenbezogenen Daten wir während Ihres Besuches auf unseren Webseiten erfassen und wie wir diese Informationen nutzen.">
 
 
 
@@ -281,25 +281,14 @@ tr.days th {
     padding: 0;
 }
 
-#paige-content > * {
-    margin-bottom: 1rem;
-}
-
-#paige-metadata-rest:empty {
-    margin-bottom: 0;
-}
-
-#paige-metadata-rest:not(:empty) {
-    margin-bottom: 1rem;
-}
-
 blockquote {
     padding: 0.5rem 1rem;
     border-left: 0.25rem solid var(--bs-border-color);
     border-right: 0.25rem solid var(--bs-body-bg);
 }
 
-td, th {
+td,
+th {
     padding: 0.25rem;
 }
 
@@ -308,6 +297,7 @@ td, th {
     display: flex;
 }
 
+.paige-row-narrow:not(:last-child),
 .paige-figure .paige-quote,
 .paige-figure .paige-video,
 .paige-figure .highlight pre.chroma,
@@ -324,7 +314,10 @@ blockquote > p:last-of-type {
 .paige-gallery,
 .paige-image,
 .paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
 .paige-video,
+#paige-content > *,
 table {
     margin-bottom: 1rem;
 }
@@ -537,25 +530,22 @@ table {
     
 </head>
 
-    <body class="d-flex flex-column">
+    <body>
 
         
 
-        <div class="container flex-fill" id="paige-root">
+        <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-3" id="paige-site">
+                    
+
                     
 
 
-    <header class="mt-3" id="paige-header">
-        
-
-        
 
 
 
 
-        
 
 
 
@@ -572,157 +562,187 @@ table {
 
 
 
-    <nav>
-        <ul class="align-items-center justify-content-center nav ">
-            
-                
-                
-                
-                
-                
+    <header id="paige-site-header">
+        
 
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/"    >Home</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item  dropdown ">
-                    <a   aria-expanded="false"  class="  nav-link  dropdown-toggle   text-decoration-underline "  data-bs-toggle="dropdown"  href="#"  role="button"  >Verein</a>
-
-                    
-                        <ul class="dropdown-menu">
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/about/" >Über uns</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/gemeinschaftsgarten/" >Gemeinschaftsgarten</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/minibeete/" >Minibeete</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/anderes/" >Anderes</a>
-                                </li>
-
-                                
-                            
-                        </ul>
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/aktuelles/"    >Aktuelles</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/mitmachen/"    >Mitmachen</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/links/"    >Links</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a  aria-current="page"   class=" active  text-body-emphasis    nav-link   text-decoration-underline "  href="/wimmeltreff/kontakt-impressum/"    >Kontakt/Impressum</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/search/"    >Suche</a>
-
-                    
-                </li>
-            
-        </ul>
-    </nav>
-
+        
+            <div class="display-1 fw-bold  paige-row-wide text-center" id="paige-site-title">Wimmeltreff e.V.</div>
+        
 
         
 
+        
+            
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+                            
+                            
+                            
+                            
+                            
 
-    <nav aria-label="Breadcrumbs" class="mt-3" id="paige-breadcrumbs">
-        <div class="d-flex justify-content-center">
-            <ol class="breadcrumb mb-0">
-                
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/"    >Home</a>
 
-                
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
 
-                
-                    
+                            <li class="nav-item  dropdown ">
+                                <a   aria-expanded="false"  class="  nav-link  dropdown-toggle   text-decoration-underline "  data-bs-toggle="dropdown"  href=""  role="button"  >Verein</a>
 
-                    
+                                
+                                    <ul class="dropdown-menu">
+                                        
+                                            
 
-                    <li class="breadcrumb-item"><a href="/wimmeltreff/">Wimmeltreff e.V.</a></li>
-                
-            </ol>
-        </div>
-    </nav>
+                                            
 
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/about/" >Über uns</a>
+                                            </li>
 
+                                            
+
+                                            
+                                        
+                                            
+
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/gemeinschaftsgarten/" >Gemeinschaftsgarten</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                            
+
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/minibeete/" >Minibeete</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                            
+
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/anderes/" >Anderes</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                    </ul>
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/aktuelles/"    >Aktuelles</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/mitmachen/"    >Mitmachen</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/links/"    >Links</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a  aria-current="page"   class=" active  fw-bold text-body-emphasis    nav-link   text-decoration-underline "  href="/wimmeltreff/kontakt-impressum/"    >Kontakt/Impressum</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/search/"    >Suche</a>
+
+                                
+                            </li>
+                        
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/wimmeltreff/">Wimmeltreff e.V.</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
 
         
     </header>
 
 
+                    
 
-                    <main class="mt-3" id="paige-main">
-                        
-
-                        
 
 
 
@@ -753,8 +773,8 @@ table {
 
 
 
-<article  class="paige-published paige-single"  id="paige-article">
-    <div class="align-items-center d-flex flex-column mb-0">
+<article class="paige-kind-page paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
         
 
 
@@ -769,44 +789,49 @@ table {
 
 
 
-<div class="mw-100" id="paige-metadata">
-    
-        <h1 class="fw-bold text-center" id="paige-title">Kontakt/Impressum</h1>
-    
 
-    
 
-    
-        <div id="paige-metadata-rest">
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">Kontakt/Impressum</h1>
             
 
             
 
             
+                <div id="paige-metadata">
+                    
+
+                    
+
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-date">
+                            <time datetime="2024-07-01">July 1, 2024</time>
+                        </p>
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">4 minutes</p>
+                    
+                </div>
+            
 
             
-                <p class="mb-0 text-center text-secondary" id="paige-date">
-                    <time datetime="2024-07-01">July 1, 2024</time>
-                </p>
-            
 
             
-                <p class="mb-0 text-center text-secondary" id="paige-reading-time">4 minutes</p>
-            
-        </div>
-    
-</div>
-
-        
-
-
-
-        
-
-
-    <div class="mw-100" id="paige-toc">
-        <div class="border mb-3 pe-3 ps-3 pt-3 rounded">
-            <nav id="TableOfContents">
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
   <ul>
     <li><a href="#anschrift">Anschrift</a></li>
     <li><a href="#garten">Garten</a></li>
@@ -822,16 +847,18 @@ table {
     <li><a href="#sicherheit">Sicherheit</a></li>
   </ul>
 </nav>
+                    </div>
+                </div>
+            
+
+            
         </div>
-    </div>
+    </header>
+
 
 
         
-
-
-
-
-    <div class="mw-100" id="paige-content"><h2 id="anschrift">Anschrift<a aria-label="Link to this section" class="paige-header-link" href="#anschrift"></a></h2>
+            <main class="mw-100" id="paige-content"><h2 id="anschrift">Anschrift<a aria-label="Link to this section" class="paige-header-link" href="#anschrift"></a></h2>
 <p>Wimmeltreff e.V.<br>
 Tulpenweg 3<br>
 14772 Brandenburg</p>
@@ -868,7 +895,42 @@ Registernummer: VR 9755 P</p>
 Auskunft</p>
 <p>Auf schriftliche Anfrage teilen wir Ihnen mit, welche Daten wir über Ihre Person gespeichert haben. Ihre bei uns gespeicherten Daten können Sie jederzeit sperren, löschen oder berichtigen lassen, sofern wir aus administrationstechnischen Gründen verpflichtet sind diese begrenzte Zeit aufzubewaren. Daten, die von einer Aufbewahrungspflicht unsererseits betroffen sind, wurden ausschließlich im Rahmen einer aktiven Anmeldung oder Buchung bei uns erhoben. Bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten sowie Widerruf erteilter Einwilligungen nutzen Sie bitte unsere Kontaktdaten im Impressum.</p>
 <p>Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit und unter Beachtung sich ändernder gesetzlicher Bestimmungen anzupassen. Die aktuelle Fassung finden Sie immer auf unserer Webseite unter dem Menüpunkt Datenschutzerklärung. Diese Datenschutzerklärung gilt ausschließlich für unsere Webseiten und nicht für Webseiten Dritter, auf die verlinkt wird.</p>
-</div>
+</main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <footer class="mw-100" id="paige-page-footer">
+        
+
+        
+
+        
+            <div id="paige-siblings">
+                
+
+                
+                    <div class="paige-row-narrow text-center text-secondary" id="paige-prev">&lsaquo; <a class="link-secondary" href="https://falkobenthin.github.io/wimmeltreff/mitmachen/">Mitmachen</a></div>
+                
+            </div>
+        
+
+        
+    </footer>
 
 
     </div>
@@ -877,6 +939,12 @@ Auskunft</p>
 
 
 
+
+
+
+
+
+
     
     
 
@@ -914,12 +982,12 @@ Auskunft</p>
 
 
 
+    
 
 
 
 
-                        
-                    </main>
+
 
                     
 
@@ -931,37 +999,31 @@ Auskunft</p>
 
 
 
-    
 
-    
-
-
-<footer class="mb-3" id="paige-footer">
-    
-
-    
-        <div class="mb-3" id="paige-prev-next">
-            
-
-            
-                <p class="mb-0 text-center text-secondary" id="paige-prev">
-                    &lsaquo; <a class="link-secondary" href="https://falkobenthin.github.io/wimmeltreff/mitmachen/">Mitmachen</a>
-                </p>
-            
-        </div>
-    
 
     
 
-    
 
-    <p class="mb-0 text-center" id="paige-credit">
-        <a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige" >Paige Theme</a>
-    </p>
 
-    
-</footer>
 
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit">&lt;a class=&ldquo;link-secondary text-decoration-none&rdquo; href=&quot;{{ $theme }}&quot; {{ with $target }} target=&quot;{{ . }}&quot; {{ end }}&gt;Paige Theme</a></p>
+        
+
+        
+    </footer>
+
+
+
+                    
                 </div>
             </div>
         </div>

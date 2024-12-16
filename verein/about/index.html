@@ -62,7 +62,7 @@
   <meta property="og:site_name" content="Wimmeltreff e.V.">
   <meta property="og:title" content="Über uns">
   <meta property="og:description" content="Zitat hundertjährige
-Garten Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesitz. Es war immer ein Selbstversorgergarten und Ort des gemeinschaftlichen Gärtnerns. Früher gärtnerten hier Familienmitglieder und Angehöriger der roten Armee, die zeitweise das Grundstück mit besiedelten und die der Gareten ebenfalls ernährte. Neben Obst und Gemüse gab es auch immer Haus- und Nutztiere, beispielsweise Hühner, Enten, Gänse, Tauben, Schafe und Kaninchen. Auch die Hauskatzen sollen nicht vergessen werden.">
+Garten Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesitz. Es war immer ein Selbstversorgergarten und Ort des gemeinschaftlichen Gärtnerns. Früher gärtnerten hier Familienmitglieder und Angehöriger der roten Armee, die zeitweise das Grundstück mit besiedelten und die der Gareten ebenfalls ernährte. Neben Obst und Gemüse gab es auch immer Haus- und Nutztiere, beispielsweise Hühner, Enten, Gänse, Tauben, Schafe und Kaninchen. Auch die Hauskatzen sollen nicht vergessen werden. Wildtiere wie Igel, Singvögel, Wildbienen, Fledermäuse, Reptilien und Amphibien waren immer willkommen und fanden hier einen Lebensraum.">
   <meta property="og:locale" content="de_de">
   <meta property="og:type" content="article">
     <meta property="article:section" content="verein">
@@ -73,7 +73,7 @@ Garten Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesit
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Über uns">
   <meta name="twitter:description" content="Zitat hundertjährige
-Garten Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesitz. Es war immer ein Selbstversorgergarten und Ort des gemeinschaftlichen Gärtnerns. Früher gärtnerten hier Familienmitglieder und Angehöriger der roten Armee, die zeitweise das Grundstück mit besiedelten und die der Gareten ebenfalls ernährte. Neben Obst und Gemüse gab es auch immer Haus- und Nutztiere, beispielsweise Hühner, Enten, Gänse, Tauben, Schafe und Kaninchen. Auch die Hauskatzen sollen nicht vergessen werden.">
+Garten Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesitz. Es war immer ein Selbstversorgergarten und Ort des gemeinschaftlichen Gärtnerns. Früher gärtnerten hier Familienmitglieder und Angehöriger der roten Armee, die zeitweise das Grundstück mit besiedelten und die der Gareten ebenfalls ernährte. Neben Obst und Gemüse gab es auch immer Haus- und Nutztiere, beispielsweise Hühner, Enten, Gänse, Tauben, Schafe und Kaninchen. Auch die Hauskatzen sollen nicht vergessen werden. Wildtiere wie Igel, Singvögel, Wildbienen, Fledermäuse, Reptilien und Amphibien waren immer willkommen und fanden hier einen Lebensraum.">
 
 
 
@@ -268,25 +268,14 @@ tr.days th {
     padding: 0;
 }
 
-#paige-content > * {
-    margin-bottom: 1rem;
-}
-
-#paige-metadata-rest:empty {
-    margin-bottom: 0;
-}
-
-#paige-metadata-rest:not(:empty) {
-    margin-bottom: 1rem;
-}
-
 blockquote {
     padding: 0.5rem 1rem;
     border-left: 0.25rem solid var(--bs-border-color);
     border-right: 0.25rem solid var(--bs-body-bg);
 }
 
-td, th {
+td,
+th {
     padding: 0.25rem;
 }
 
@@ -295,6 +284,7 @@ td, th {
     display: flex;
 }
 
+.paige-row-narrow:not(:last-child),
 .paige-figure .paige-quote,
 .paige-figure .paige-video,
 .paige-figure .highlight pre.chroma,
@@ -311,7 +301,10 @@ blockquote > p:last-of-type {
 .paige-gallery,
 .paige-image,
 .paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
 .paige-video,
+#paige-content > *,
 table {
     margin-bottom: 1rem;
 }
@@ -524,25 +517,22 @@ table {
     
 </head>
 
-    <body class="d-flex flex-column">
+    <body>
 
         
 
-        <div class="container flex-fill" id="paige-root">
+        <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-3" id="paige-site">
+                    
+
                     
 
 
-    <header class="mt-3" id="paige-header">
-        
-
-        
 
 
 
 
-        
 
 
 
@@ -559,163 +549,193 @@ table {
 
 
 
-    <nav>
-        <ul class="align-items-center justify-content-center nav ">
-            
-                
-                
-                
-                
-                
+    <header id="paige-site-header">
+        
 
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/"    >Home</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item  dropdown ">
-                    <a  aria-current="page"   aria-expanded="false"  class=" active  text-body-emphasis    nav-link  dropdown-toggle   text-decoration-underline "  data-bs-toggle="dropdown"  href="#"  role="button"  >Verein</a>
-
-                    
-                        <ul class="dropdown-menu">
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/about/" >Über uns</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/gemeinschaftsgarten/" >Gemeinschaftsgarten</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/minibeete/" >Minibeete</a>
-                                </li>
-
-                                
-                            
-                                <li>
-                                    <a class=" dropdown-item" href="/wimmeltreff/verein/anderes/" >Anderes</a>
-                                </li>
-
-                                
-                            
-                        </ul>
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/aktuelles/"    >Aktuelles</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/mitmachen/"    >Mitmachen</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/links/"    >Links</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/kontakt-impressum/"    >Kontakt/Impressum</a>
-
-                    
-                </li>
-            
-                
-                
-                
-                
-                
-
-                <li class="nav-item ">
-                    <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/search/"    >Suche</a>
-
-                    
-                </li>
-            
-        </ul>
-    </nav>
-
+        
+            <div class="display-1 fw-bold  paige-row-wide text-center" id="paige-site-title">Wimmeltreff e.V.</div>
+        
 
         
 
+        
+            
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+                            
+                            
+                            
+                            
+                            
 
-    <nav aria-label="Breadcrumbs" class="mt-3" id="paige-breadcrumbs">
-        <div class="d-flex justify-content-center">
-            <ol class="breadcrumb mb-0">
-                
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/"    >Home</a>
 
-                
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
 
-                
-                    
+                            <li class="nav-item  dropdown ">
+                                <a  aria-current="page"   aria-expanded="false"  class=" active  fw-bold text-body-emphasis    nav-link  dropdown-toggle   text-decoration-underline "  data-bs-toggle="dropdown"  href=""  role="button"  >Verein</a>
 
-                    
+                                
+                                    <ul class="dropdown-menu">
+                                        
+                                            
 
-                    <li class="breadcrumb-item"><a href="/wimmeltreff/">Wimmeltreff e.V.</a></li>
-                
-                    
+                                            
 
-                    
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/about/" >Über uns</a>
+                                            </li>
 
-                    <li class="breadcrumb-item"><a href="/wimmeltreff/verein/">Verein</a></li>
-                
-            </ol>
-        </div>
-    </nav>
+                                            
 
+                                            
+                                        
+                                            
 
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/gemeinschaftsgarten/" >Gemeinschaftsgarten</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                            
+
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/minibeete/" >Minibeete</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                            
+
+                                            
+
+                                            <li>
+                                                <a class=" dropdown-item" href="/wimmeltreff/verein/anderes/" >Anderes</a>
+                                            </li>
+
+                                            
+
+                                            
+                                        
+                                    </ul>
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/aktuelles/"    >Aktuelles</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/mitmachen/"    >Mitmachen</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/links/"    >Links</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/kontakt-impressum/"    >Kontakt/Impressum</a>
+
+                                
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item ">
+                                <a   class="  nav-link   text-decoration-underline "  href="/wimmeltreff/search/"    >Suche</a>
+
+                                
+                            </li>
+                        
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/wimmeltreff/">Wimmeltreff e.V.</a></li>
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/wimmeltreff/verein/">Verein</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
 
         
     </header>
 
 
+                    
 
-                    <main class="mt-3" id="paige-main">
-                        
-
-                        
 
 
 
@@ -746,8 +766,8 @@ table {
 
 
 
-<article  class="paige-published paige-single"  id="paige-article">
-    <div class="align-items-center d-flex flex-column mb-0">
+<article class="paige-kind-page paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
         
 
 
@@ -762,59 +782,66 @@ table {
 
 
 
-<div class="mw-100" id="paige-metadata">
-    
-        <h1 class="fw-bold text-center" id="paige-title">Über uns</h1>
-    
 
-    
 
-    
-        <div id="paige-metadata-rest">
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">Über uns</h1>
             
 
             
 
             
+                <div id="paige-metadata">
+                    
+
+                    
+
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-date">
+                            <time datetime="2024-07-01">July 1, 2024</time>
+                        </p>
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">2 minutes</p>
+                    
+                </div>
+            
 
             
-                <p class="mb-0 text-center text-secondary" id="paige-date">
-                    <time datetime="2024-07-01">July 1, 2024</time>
-                </p>
-            
 
             
-                <p class="mb-0 text-center text-secondary" id="paige-reading-time">2 minutes</p>
-            
-        </div>
-    
-</div>
-
-        
-
-
-
-        
-
-
-    <div class="mw-100" id="paige-toc">
-        <div class="border mb-3 pe-3 ps-3 pt-3 rounded">
-            <nav id="TableOfContents">
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
   <ul>
     <li><a href="#garten">Garten</a></li>
     <li><a href="#verein">Verein</a></li>
   </ul>
 </nav>
+                    </div>
+                </div>
+            
+
+            
         </div>
-    </div>
+    </header>
+
 
 
         
-
-
-
-
-    <div class="mw-100" id="paige-content"><p>Zitat hundertjährige</p>
+            <main class="mw-100" id="paige-content"><p>Zitat hundertjährige</p>
 <h2 id="garten">Garten<a aria-label="Link to this section" class="paige-header-link" href="#garten"></a></h2>
 <p>Der Garten befindet sich seit 1923 in dritter GEneration in Familienbesitz. Es war immer ein Selbstversorgergarten und Ort des gemeinschaftlichen Gärtnerns. Früher gärtnerten hier Familienmitglieder und Angehöriger der roten Armee, die zeitweise das Grundstück mit besiedelten und die der Gareten ebenfalls ernährte. Neben Obst und Gemüse gab es auch immer Haus- und Nutztiere, beispielsweise Hühner, Enten, Gänse, Tauben, Schafe und Kaninchen. Auch die Hauskatzen sollen nicht vergessen werden. Wildtiere wie Igel, Singvögel, Wildbienen, Fledermäuse, Reptilien und Amphibien waren immer willkommen und fanden hier einen Lebensraum.</p>
 <p>In den letzten Jahren zerstreuten sich die Familienmitglieder und altersbedingt konnte sich die Natur immer mehr Bereiche des Gartens zurückerobern. Der Garten wurde immer verwunschener.</p>
@@ -822,7 +849,42 @@ table {
 <p>Zeitgleich wollten sich immer mehr Menschen mit naturbelassenen Lebensmitteln ernähren und diese auch selber anzubauen. Ein immer naturbelassenerer Garten und dieser Trend brachten den Grundstücksbesitzer Horst Keller auf die Idee, den Garten gemeinsam mit anderen wiederzubeleben.</p>
 <p>Es fanden sich sieben weitere Interessierte, denen die Idee eines Gemeinschaftsgartens gefiel. Sie gründeten im Juni 2024 den Verein Wimmeltreff und begannen, kleine Flächen des Gartens wieder zu kultivieren.</p>
 <p>Vereinsmitglieder können gemeinsam gärtnern und ihre individuellen Fähigkeiten einbringen, wenn es darum geht, Beete anzulegen, zu säen und pflanzen, die Beete zu pflegen sowie die Ernte einzubringen, zu verarbeiten und zu genießen. Sie schaffen neue Lebensräume für Wildtiere, unter anderem indem sie Brutstätten und Insektenhotels bauen und Igel ansiedeln. Im Gemeinschaftsgarten können sie sich begegnen, austauschen, voneinander lernen  sowie körperlich und geistig aktiv sein.</p>
-</div>
+</main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <footer class="mw-100" id="paige-page-footer">
+        
+
+        
+
+        
+            <div id="paige-siblings">
+                
+
+                
+                    <div class="paige-row-narrow text-center text-secondary" id="paige-prev">&lsaquo; <a class="link-secondary" href="https://falkobenthin.github.io/wimmeltreff/verein/gemeinschaftsgarten/">Gemeinschaftsgarten</a></div>
+                
+            </div>
+        
+
+        
+    </footer>
 
 
     </div>
@@ -831,6 +893,12 @@ table {
 
 
 
+
+
+
+
+
+
     
     
 
@@ -868,12 +936,12 @@ table {
 
 
 
+    
 
 
 
 
-                        
-                    </main>
+
 
                     
 
@@ -885,37 +953,31 @@ table {
 
 
 
-    
 
-    
-
-
-<footer class="mb-3" id="paige-footer">
-    
-
-    
-        <div class="mb-3" id="paige-prev-next">
-            
-
-            
-                <p class="mb-0 text-center text-secondary" id="paige-prev">
-                    &lsaquo; <a class="link-secondary" href="https://falkobenthin.github.io/wimmeltreff/verein/gemeinschaftsgarten/">Gemeinschaftsgarten</a>
-                </p>
-            
-        </div>
-    
 
     
 
-    
 
-    <p class="mb-0 text-center" id="paige-credit">
-        <a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige" >Paige Theme</a>
-    </p>
 
-    
-</footer>
 
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit">&lt;a class=&ldquo;link-secondary text-decoration-none&rdquo; href=&quot;{{ $theme }}&quot; {{ with $target }} target=&quot;{{ . }}&quot; {{ end }}&gt;Paige Theme</a></p>
+        
+
+        
+    </footer>
+
+
+
+                    
                 </div>
             </div>
         </div>
