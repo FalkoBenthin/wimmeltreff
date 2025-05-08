@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://falkobenthin.github.io/wimmeltreff/links/</loc><lastmod>2024-07-12T23:20:17+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/verein/</loc><lastmod>2024-07-12T10:59:03+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/</loc><lastmod>2024-07-11T19:56:35+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/aktuelles/</loc><lastmod>2024-07-11T12:54:16+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/search/</loc><lastmod>2024-07-10T09:31:56+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/</loc><lastmod>2024-07-01T13:06:14+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/verein/anderes/</loc><lastmod>2024-07-01T13:04:36+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/verein/minibeete/</loc><lastmod>2024-07-01T13:02:05+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/verein/gemeinschaftsgarten/</loc><lastmod>2024-07-01T13:00:10+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/verein/about/</loc><lastmod>2024-07-01T12:54:53+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/kontakt-impressum/</loc><lastmod>2024-07-01T12:46:11+02:00</lastmod></url><url><loc>https://falkobenthin.github.io/wimmeltreff/categories/</loc></url><url><loc>https://falkobenthin.github.io/wimmeltreff/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/links/</loc>
+    <lastmod>2024-07-12T23:20:17+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/verein/</loc>
+    <lastmod>2024-07-12T10:59:03+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/</loc>
+    <lastmod>2024-07-11T19:56:35+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/aktuelles/</loc>
+    <lastmod>2024-07-11T12:54:16+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/search/</loc>
+    <lastmod>2024-07-10T09:31:56+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/</loc>
+    <lastmod>2024-07-01T13:06:14+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/verein/anderes/</loc>
+    <lastmod>2024-07-01T13:04:36+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/verein/minibeete/</loc>
+    <lastmod>2024-07-01T13:02:05+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/verein/gemeinschaftsgarten/</loc>
+    <lastmod>2024-07-01T13:00:10+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/verein/about/</loc>
+    <lastmod>2024-07-01T12:54:53+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/kontakt-impressum/</loc>
+    <lastmod>2024-07-01T12:46:11+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/categories/</loc>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/tags/</loc>
+  </url>
+</urlset>
