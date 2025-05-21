@@ -1,0 +1,35 @@
+#paige-authors,
+#paige-collections,
+#paige-credit,
+#paige-keywords,
+#paige-prev-next,
+#paige-reading-time,
+#paige-series,
+#paige-toc,
+#paige-date,
+.paige-authors,
+.paige-date,
+.paige-keywords,
+.paige-reading-time,
+.paige-series,
+.paige-summary {
+	    display: none;
+    }
+
+table.aktuelles {
+  border: 1px solid black;
+  }
+table.aktuelles th, table.aktuelles td {
+  width: 14.3%;
+  border: 1px solid black;
+  font-size: 0.8em ;
+  vertical-align: top;
+  }
+tr.days th {
+  background-color: #75ff33 ;
+  font-weight: bold ;
+  }
+
+.highlight {
+  background-color: gold ;
+  }
