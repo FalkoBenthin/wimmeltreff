@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/</loc>
+    <lastmod>2026-05-08T12:46:17+02:00</lastmod>
+  </url><url>
+    <loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/neuhier/</loc>
+    <lastmod>2026-05-08T12:46:17+02:00</lastmod>
+  </url><url>
     <loc>https://falkobenthin.github.io/wimmeltreff/aktuelles/2026/etagenzwiebeln/</loc>
     <lastmod>2026-05-07T11:21:22+02:00</lastmod>
   </url><url>
@@ -77,7 +83,7 @@
     <loc>https://falkobenthin.github.io/wimmeltreff/search/</loc>
     <lastmod>2024-07-10T09:31:56+02:00</lastmod>
   </url><url>
-    <loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/</loc>
+    <loc>https://falkobenthin.github.io/wimmeltreff/mitmachen/mitmachen/</loc>
     <lastmod>2024-07-01T13:06:14+02:00</lastmod>
   </url><url>
     <loc>https://falkobenthin.github.io/wimmeltreff/verein/anderes/</loc>
